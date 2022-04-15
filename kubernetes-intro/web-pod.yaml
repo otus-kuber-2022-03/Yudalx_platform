@@ -9,7 +9,7 @@ spec: # Описание Pod
     - name: app
       image: devopstank/nginx-base-app:1.1
       ports:
-        - containerPort: 80
+        - containerPort: 8000
       volumeMounts:
         - name: app
           mountPath: /app
