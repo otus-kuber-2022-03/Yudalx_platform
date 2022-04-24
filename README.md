@@ -9,3 +9,11 @@ HomeWork №1
 - Написан манифест web-pod.yaml для запуска контейнера с nginx в k8s
 - Запушен образ с hipster-frontend devopstank/microservices-demo-frontend
 - Добавлены env в сгенеренный манифест hipster-frontend
+
+HomeWork №2
+ReplicaSet не отслеживает изменения в podSpec, по этому изменение ссылки на образ не ведет к пересозданию подов
+- Написан манифест для деплоя frontend, как через ReplicaSet так и Deployment
+- Написан манифест для деплоя paymentservice, как через ReplicaSet так и Deployment
+- В манифесте paymentservice-deployment-bg.yaml реализован деплой через blue-green
+- В манифесте paymentservice-deployment-reverse.yaml реализован деплой через rollingUpdate с недоступностью максимум одного пода
+- Написан манифест node-exporter-daemonset для деплоя node-exporter на все ноды в кластере, включая мастер ноды
