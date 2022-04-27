@@ -8,5 +8,4 @@ roleRef:
   name: prometheus
 subjects:
   - kind: Group
-    name: "system:serviceaccounts"
-    namespace: prometheus
+    name: "system:serviceaccounts:prometheus"
