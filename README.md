@@ -20,3 +20,4 @@ ReplicaSet не отслеживает изменения в podSpec, по эт�
 
 HomeWork №3
 - Написал манифесты для усвоения работы Role, ClusterRole, RoleBinding, ClusterRoleBinding
+
